@@ -1,20 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Marmelad&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
-
-.tooltip {
-  @apply invisible absolute;
-}
-
-.has-tooltip:hover .tooltip {
-  @apply visible z-50;
-}
-
 @tailwind utilities;
 
-html {
-  font-family: "Brawler", serif;
-  font-family: "Marmelad", sans-serif;
+@layer base {
+  html {
+    @apply bg-surface text-text antialiased;
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-white;
+  }
+}
+
+@layer components {
+  .role-card {
+    @apply border-l-2 border-surface-border pl-6 py-4 hover:border-accent transition-colors duration-300;
+  }
+
+  .tag {
+    @apply px-3 py-1 text-xs font-mono tracking-wide text-text-muted border border-surface-border rounded-full;
+  }
+
+  .section-title {
+    @apply text-xs font-mono tracking-[0.3em] uppercase text-accent mb-8;
+  }
+}
+
+@media print {
+  html {
+    @apply bg-white text-black;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .role-card {
+    @apply border-gray-300 break-inside-avoid;
+  }
+  .tag {
+    @apply border-gray-300 text-gray-600;
+  }
+  .section-title {
+    @apply text-gray-500;
+  }
 }

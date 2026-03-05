@@ -1,16 +1,27 @@
-### Hi there 👋
+# Dr Nicole Martin
 
-<!--
-**n1ckdm/n1ckdm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Physicist. Engineer. Builder.**
 
-Here are some ideas to get you started:
+Engineering consultant with 12+ years across Formula One, aerospace, robotics, academia, and product development. Founder of [Materia Lab](https://materia-lab.uk) — helping startups and SMBs turn ambitious ideas into working products.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I do
+
+- Product development from concept to production
+- Robotics, kinematics, and control systems
+- Machine learning and mathematical modelling
+- Embedded systems and software architecture
+- Feasibility studies and prototyping
+
+### Background
+
+- **PhD** Fluid Mechanics — University of Surrey
+- **BEng** Aerospace Engineering — University of Surrey
+- Former Aerodynamicist at **Williams F1** and **Toyota F1**
+- Former Principal Engineer at **Tharsus** (robotics)
+- Former Senior Lecturer at **Northumbria University**
+
+### Get in touch
+
+- **Email:** nic@materia-lab.uk
+- **Web:** [materia-lab.uk](https://materia-lab.uk)
+- **LinkedIn:** [Dr Nicole Martin](https://linkedin.com/in/dr-nick-martin)
